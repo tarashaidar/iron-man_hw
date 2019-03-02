@@ -1,0 +1,268 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 700px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+p, span, div,i,img,a {
+	margin: 0;
+	padding: 0
+}
+div,i,a {
+	box-sizing: border-box;
+
+}
+
+.container{
+	background-image:url(img/Iron-Man.png);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 60%;
+	height: 100%;
+}
+
+.row{
+	width: 100%;
+	height: 100%;
+	background: rgba(37,37,45,0.8);
+	padding-top: 100px;
+}
+
+.iron-man{
+	width: 60%;
+	height: 80%;
+	background-image: linear-gradient(to right bottom, #1a191f, #25242c, #2f2f39, #3b3a47, #464656);
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 60px;
+}
+
+.menu{
+    transform: rotate(-90deg);
+    position: absolute;
+    height: 30px;
+    width: 360px;
+    left: 125px;
+    top: 310px;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #5c5b60;
+	font-weight:normal;	
+}
+
+.menu li{
+	width: 120px;
+	height:20px;
+}
+.menu li a{
+	text-decoration: none;
+	color:#5c5b60;
+
+}
+
+.menu li a:hover
+{
+	color:red;
+}
+
+
+
+.iron{
+	flex-basis: 45%;
+	background: #fff;
+
+}
+
+.iron{
+	display: flex;
+	flex-direction: column;
+}
+
+.iron-1{
+	width: 25%;
+	height: 5px;
+	background: orangered;
+	margin: 20px 40px;
+}
+
+.iron-2{
+	margin:  40px;
+	margin-bottom: 80px;
+	color: orangered;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.iron-3{
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 40px;
+}
+
+.iron-4{
+	width: 80%;
+	height: 2px;
+	background: rgb(134, 132, 130);
+	margin: 0 40px;
+}
+
+.iron-5{
+	color: rgb(134, 132, 130);
+	margin: 0 40px;
+	font-size: 12px;
+}
+
+.man-background{
+	background: rgba(37,37,45,0.9);
+	width: 100%;
+	height: 100%;
+}
+
+.man{
+	background-image:url(img/ironman-png-470.png);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 70%;
+	height: 100%;
+	flex-basis: 55%;
+	display: flex;
+	flex-direction: column;
+}
+
+.man-1{
+	color: #fff;
+	font-size: 80px;
+	font-weight: bold;
+	padding: 83px 20px;
+}
+
+.join{
+	font-size:11px;
+	color:#625f5f;
+	margin-left: 140px;
+}
+.join p span {
+	font-size:15px;
+}
+
+.btn{
+	margin-bottom: 40px;
+	margin-left: 140px;
+}
+
+.btn a{
+	text-decoration: none;
+	color:#fff;	
+	font-weight: normal;
+	font-size:14px;
+	background: #e03d24;
+	padding: 10px 40px;
+	border-radius: 2px;
+	outline:none;
+}
+.btn a:hover{
+	background: #a5210d;
+	font-size:15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	color:#b1d0cf;
+}
+
+.logo{
+	position: absolute;
+	bottom:475px;
+	left: 625px;
+}
+
+.iron-man-img > img{
+    width: 275px;
+    position: absolute;
+    z-index: 2;
+    left: 480px;
+    top: 140px;
+}
+
+
+i.fa-bars {
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 24px;;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+<!-- navigation -->
+.navigation{
+	position: absolute;
+	color:#fff;
+	z-index: 10;
+
+}
+.menu-item{
+	position: absolute;
+	width:250px;
+	height:200px;
+	background:rgba(221, 59, 18, 0.603);
+	margin-left: 20px;
+	left:326px;
+	bottom: 266px;
+	display: none;
+}
+.menu-item li{
+	list-style: none;
+	height: 20px;
+	font-weight:normal;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	
+	
+}
+.menu-item li a{
+	text-decoration: none;
+	color:#fff;
+	font-size:12px;
+}
+.menu-item li a:hover{
+	color:#29a6b8;
+	font-size:18px;
+}
+
+.close-bars{
+	display: none;
+	left: 20px;
+	bottom: 40px;
+	position: relative;
+
+}
+<!-- navigation -->
+
+
+
+
+
+
+
+
+
+
+
+
+
